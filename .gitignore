@@ -9,3 +9,5 @@ buildNumber.properties
 
 .idea
 *.iml
+
+demo1/src/main/resources/jdbc.properties
