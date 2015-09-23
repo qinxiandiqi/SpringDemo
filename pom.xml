@@ -22,6 +22,7 @@
         <standard.version>1.2.5</standard.version>
         <servlet-api.version>2.5</servlet-api.version>
         <jstl.version>1.2</jstl.version>
+        <testng.version>6.8.21</testng.version>
     </properties>
 
     <modules>
