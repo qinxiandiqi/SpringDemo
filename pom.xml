@@ -23,6 +23,7 @@
         <servlet-api.version>2.5</servlet-api.version>
         <jstl.version>1.2</jstl.version>
         <testng.version>6.8.21</testng.version>
+        <cglib.version>3.1</cglib.version>
     </properties>
 
     <modules>
