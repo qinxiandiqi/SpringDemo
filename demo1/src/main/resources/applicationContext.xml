@@ -18,7 +18,7 @@
     <context:component-scan base-package="com.qinxiandiqi.springdemo.demo1.service"/>
 
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="locations" value="jdbc.properties"/>
+        <property name="locations" value="classpath:jdbc.properties"/>
     </bean>
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"

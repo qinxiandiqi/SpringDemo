@@ -101,6 +101,14 @@
                 <artifactId>maven-jetty-plugin</artifactId>
                 <version>6.1.5</version>
                 <configuration>
+                    <webAppSourceDirectory>src/main/webapp</webAppSourceDirectory>
+                    <scanIntervalSeconds>3</scanIntervalSeconds>
+                    <contextPath>/demo1</contextPath>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>8080</port>
+                        </connector>
+                    </connectors>
                 </configuration>
             </plugin>
         </plugins>
